@@ -35,6 +35,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.brcm.cp_crash=none \
     ro.tvout.enable=true \
     wifi.interface=wlan0 \
+    wifi.supplicant_scan_interval=30 \
     ro.cm.hardware.cabc=/sys/class/mdnie/mdnie/cabc
 
 # Dalvik heap
