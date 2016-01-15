@@ -30,6 +30,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     charger_res_images \
     SamsungServiceMode \
+    Snap
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
