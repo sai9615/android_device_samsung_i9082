@@ -223,7 +223,6 @@ on boot
 #    write /sys/devices/platform/bcmpmu_core/rgltr "1300,1,1,csr_uc"
 #    write /sys/kernel/debug/clock/proc_ccu/arm_clk/rate 1200000000
 #    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor ondemand
-    mount debugfs /sys/kernel/debug /sys/kernel/debug
 
     # required so RIL can open kernel RPC drivers
     chmod 0660 /dev/bcm_rpc
