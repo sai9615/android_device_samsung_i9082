@@ -26,14 +26,12 @@ etc/DiamondVoice_SF_Filter_WB.txt
 etc/DiamondVoice_WB.txt
 etc/gps/glconfig.xml
 etc/gps.conf
-etc/media_profiles.xml
 etc/sensors.conf
 etc/srm.bin
 etc/Volume.db
 etc/wifi/bcmdhd_apsta.bin_b2
 etc/wifi/bcmdhd_sta.bin_b2
 etc/wifi/nvram_net.txt
-etc/wifi/wpa_supplicant.conf
 lib/hw/alsa.default.so
 lib/hw/audio.hdmi.capri.so
 lib/hw/audio.primary.capri.so
