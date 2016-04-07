@@ -1,7 +1,8 @@
-# Access /sys/devices/platform/mdnie/mdnie/mdnie/cabc
+# Access CMHW sysfs files
 allow system_server sysfs_writable:file rw_file_perms;
 
 # Access /efs/wifi/.mac.info
+allow system_server efs_file:dir search;
 allow system_server efs_file:file { read open };
 
 # Access .gps.interface.pipe.to_jni and .gps.interface.pipe.to_gpsd
@@ -14,6 +15,3 @@ type_transition system_server system_data_file:fifo_file gps_data_file ".gps.int
 
 # Wi-Fi
 allow system_server self:capability sys_module;
-
-# Not sure why
-allow system_server efs_file:dir search;

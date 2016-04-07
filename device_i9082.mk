@@ -10,6 +10,10 @@ $(call inherit-product-if-exists, vendor/samsung/i9082/i9082-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/samsung/i9082/overlay
 
+# Boot animation
+TARGET_SCREEN_WIDTH := 480
+TARGET_SCREEN_HEIGHT := 800
+
 # Init files
 PRODUCT_COPY_FILES += \
 	device/samsung/i9082/init.capri_ss_baffin.rc:root/init.capri_ss_baffin.rc \
