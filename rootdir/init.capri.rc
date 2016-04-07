@@ -397,7 +397,7 @@ on charger
     write /proc/vc/display/vchiq_control "autosuspend "
 
 on fs
-    mount_all /fstab.capri_ss_baffin
+    mount_all /fstab.capri
 
     # For NV Read/Write
     chown radio system /dev/block/mmcblk0p1
