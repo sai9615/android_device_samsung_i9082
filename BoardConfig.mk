@@ -105,7 +105,7 @@ BOARD_HARDWARE_CLASS := hardware/samsung/cmhw/ device/samsung/i9082/cmhw/
 TARGET_SPECIFIC_HEADER_PATH := device/samsung/i9082/include
 
 # jemalloc causes a lot of random crash on free()
-MALLOC_IMPL := dlmalloc
+MALLOC_SVELTE := true
 
 # SELinux
 BOARD_SEPOLICY_DIRS += \
