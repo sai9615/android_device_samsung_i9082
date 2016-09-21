@@ -1,7 +1,7 @@
 USE_CAMERA_STUB := true
 
 # inherit from the proprietary version
--include vendor/samsung/i9082/BoardConfigVendor.mk
+include vendor/samsung/i9082/BoardConfigVendor.mk
 
 # Include path
  COMMON_PATH := device/samsung/i9082
